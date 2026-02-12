@@ -1,0 +1,9 @@
+name: Call Reusable Workflow
+on:
+  workflow_dispatch:
+
+jobs:
+  call-workflow:
+    uses: vaishaliarora01-gif/central-repository/.github/workflows/reusable-deploy.yml@main
+    with:
+      environment: prod
