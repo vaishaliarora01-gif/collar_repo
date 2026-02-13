@@ -6,6 +6,6 @@ permissions:
   id-token: write
 jobs:
   call-workflow:
-    uses: vaishaliarora01-gif/central_repository.github/workflows/common_temp.yaml@main
+    uses: vaishaliarora01-gif/central_repository/.github/workflows/common_temp.yaml@main
     with:
       environment: prod
